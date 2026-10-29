@@ -26,7 +26,9 @@ Student(String n,String v){
     name=n ;
     varsity=v;
 }
-
+Student (String n){
+        name=n ;
+}
 
 
 
@@ -66,8 +68,12 @@ public static void main(String []args){
     student6.display();
     System.out.println("-----------------------------------\n");
 
-    Student student7=new Student();
+    Student student7=new Student("Ishan Jahan");
     student7.display();
+    System.out.println("-----------------------------------\n");
+
+    Student student8=new Student();
+    student8.display();
 
 
 
