@@ -1,4 +1,4 @@
-public static class Student {
+public static  class Student {
     String name,gender,varsity;
     int id;
 
